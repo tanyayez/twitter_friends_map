@@ -15,7 +15,7 @@ def input():
     if request.method == "POST":
         name = request.form['fname']
         lab_funcs.json_create(str(name))
-        lab_funcs.map_b(lab_funcs.get_dict(lab_funcs.json_read_new('data.json', ['name', 'location'])))
+        lab_funcs.map_b(lab_funcs.get_dict(lab_funcs.json_read_new('data.json', ['screen_name', 'location'])))
         return render_template('Res_Map.html')
     else:
         return render_template('input.html')
