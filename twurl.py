@@ -5,6 +5,7 @@ import hidden
 # https://apps.twitter.com/
 # Create App and get the four strings, put them in hidden.py
 
+
 def augment(url, parameters):
     secrets = hidden.oauth()
     consumer = oauth.OAuthConsumer(secrets['consumer_key'],
@@ -27,7 +28,5 @@ def test_me():
     connection = urllib.request.urlopen(url)
     data = connection.read()
     print(data)
-    print("Tanya")
     headers = dict(connection.getheaders())
     print(headers)
-

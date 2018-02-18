@@ -1,11 +1,14 @@
 from flask import Flask, render_template, request, redirect, url_for
 import lab_funcs
 
+
 app = Flask(__name__)
+
 
 @app.route('/')
 def start():
     return render_template('input.html')
+
 
 @app.route('/input', methods=["POST", "GET"])
 def input():
@@ -19,4 +22,4 @@ def input():
 
 
 if __name__ == "__main__":
-    app.run(debug = True)
+    app.run(debug=True)
