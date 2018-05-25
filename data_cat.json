@@ -1,0 +1,32 @@
+{
+  "data": [
+    {
+      "category": "food",
+      "total": 215.0
+    },
+    {
+      "category": "clothes",
+      "total": 0.0
+    },
+    {
+      "category": "transportation",
+      "total": 0.0
+    },
+    {
+      "category": "fun",
+      "total": 0.0
+    },
+    {
+      "category": "health",
+      "total": 0.0
+    },
+    {
+      "category": "housing",
+      "total": 0.0
+    },
+    {
+      "category": "other",
+      "total": 0.0
+    }
+  ]
+}
